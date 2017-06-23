@@ -53,7 +53,8 @@
 
 - (void)dealloc
 {
-    [self.thread cancel];
+    //todo figure out why this crashes
+//    [self.thread cancel];
 }
 
 #pragma mark - public
